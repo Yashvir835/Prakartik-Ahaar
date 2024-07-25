@@ -1,0 +1,59 @@
+.navbar {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  float: left;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #49557e;
+  font-size: 18px;
+}
+
+.navbar_right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar_search_icon,
+.navbar_basket_icon,
+.sign_icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Add margin to the left of each icon */
+}
+
+.navbar_button {
+  background: transparent;
+  font-size: 16px;
+  color: #49557e;
+  border: 1px solid tomato;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar_button:hover {
+  background-color: #fff4f2;
+}
+.navbar_item {
+  transition: transform 0.3s, font-weight 0.3s, text-decoration 0.3s;
+}
+
+.navbar_item:hover {
+  font-weight: bold;
+  transform: translateY(-5px); /* Raise the item */
+  text-decoration: underline; /* Underline the text */
+}
+.navbar li {
+  cursor: pointer;
+}
